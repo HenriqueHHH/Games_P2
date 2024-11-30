@@ -8,13 +8,11 @@ export default function Home() {
   return (
     <div style={containerStyle}>
       <div style={contentStyle}>
-        <h1 style={{ fontSize: "2.5rem", marginBottom: "1.5rem" }}>Games Net</h1>
-        <p style={{ fontSize: "1.2rem", marginBottom: "2rem" }}>
-          Gerenciamento Games Net
-        </p>
+        <h1 style={titleStyle}>Games Net</h1>
+        <p style={subtitleStyle}>Gerenciamento Games Net</p>
 
         <div style={{ display: "flex", justifyContent: "center", gap: "2rem", flexWrap: "wrap" }}>
-          <a href="/Usuario" style={linkStyle}>
+          <a href="/usuario" style={linkStyle}>
             <LuUserSquare style={iconStyle} />
             Usuário
           </a>
@@ -48,6 +46,8 @@ const containerStyle = {
   justifyContent: "center",
   height: "100vh", // Altura total da viewport
   fontFamily: "Arial, sans-serif",
+  backgroundColor: "#000", // Fundo preto
+  color: "#fff", // Cor padrão branca para o texto
 };
 
 const contentStyle = {
@@ -56,6 +56,18 @@ const contentStyle = {
   border: "3px solid #0070f3", // Margem azul fina ao redor
   borderRadius: "8px", // Bordas arredondadas
   padding: "1rem", // Espaçamento interno menor
+};
+
+const titleStyle = {
+  fontSize: "2.5rem",
+  marginBottom: "1.5rem",
+  color: "#fff", // Cor branca para o título
+};
+
+const subtitleStyle = {
+  fontSize: "1.2rem",
+  marginBottom: "2rem",
+  color: "#fff", // Cor branca para o subtítulo
 };
 
 const linkStyle = {
@@ -73,6 +85,7 @@ const iconStyle = {
   fontSize: "2.5rem",
   color: "#0070f3",
 };
+
 
 
 
