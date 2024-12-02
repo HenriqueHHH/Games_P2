@@ -44,30 +44,30 @@ const containerStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  height: "100vh", // Altura total da viewport
+  height: "100vh", 
   fontFamily: "Arial, sans-serif",
-  backgroundColor: "#000", // Fundo preto
-  color: "#fff", // Cor padrão branca para o texto
+  backgroundColor: "#000", 
+  color: "#fff", 
 };
 
 const contentStyle = {
   textAlign: "center",
-  maxWidth: "700px", // Limita a largura do conteúdo
-  border: "3px solid #0070f3", // Margem azul fina ao redor
-  borderRadius: "8px", // Bordas arredondadas
-  padding: "1rem", // Espaçamento interno menor
+  maxWidth: "700px", 
+  border: "3px solid #0070f3", 
+  borderRadius: "8px", 
+  padding: "1rem", 
 };
 
 const titleStyle = {
   fontSize: "2.5rem",
   marginBottom: "1.5rem",
-  color: "#fff", // Cor branca para o título
+  color: "#fff", 
 };
 
 const subtitleStyle = {
   fontSize: "1.2rem",
   marginBottom: "2rem",
-  color: "#fff", // Cor branca para o subtítulo
+  color: "#fff", 
 };
 
 const linkStyle = {
